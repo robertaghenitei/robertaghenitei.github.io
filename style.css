@@ -1,0 +1,15 @@
+body {
+    text-wrap: balance;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+p, li {
+    max-width: 65ch;
+}
+
+
+#picture1 {
+    max-width: 300px;
+    height: auto;
+}
