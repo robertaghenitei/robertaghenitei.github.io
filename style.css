@@ -8,8 +8,34 @@ p, li {
     max-width: 65ch;
 }
 
+#searchOptions {
+    display: block;
+    text-align: right;
+    margin: 2px solid black;
+    margin-right: 0;
+}
+
+
+.searchLinks {
+    background-color: hsl(0, 22%, 85%);
+    padding: 10px;
+    margin:auto 0 auto auto;
+    border: 2px solid white;
+    max-width: 22ch;
+}
+
+a {
+    text-align: center;
+    color: blueviolet;
+}
+
 
 #picture1 {
     max-width: 300px;
     height: auto;
+}
+
+#searchPosition{
+    text-align: center;
+    padding: 50px;
 }
