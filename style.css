@@ -5,6 +5,7 @@ body {
 }
 
 p, li {
+    text-wrap: pretty;
     max-width: 65ch;
 }
 
@@ -12,4 +13,13 @@ p, li {
 #picture1 {
     max-width: 300px;
     height: auto;
+}
+
+#container-google-searches {
+    width: auto;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10px;
 }
