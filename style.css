@@ -5,6 +5,7 @@ body {
 }
 
 p, li {
+    text-wrap: pretty;
     max-width: 65ch;
 }
 
@@ -21,7 +22,7 @@ p, li {
     padding: 10px;
     margin:auto 0 auto auto;
     border: 2px solid white;
-    max-width: 22ch;
+    max-width: 30ch;
 }
 
 a {
@@ -35,7 +36,29 @@ a {
     height: auto;
 }
 
+.form-control {
+    border-radius: 20px;
+}
+
+#container-google-searches {
+    width: auto;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#googleSearch{
+    width: 300px;
+    margin: auto;
+}
 #searchPosition{
     text-align: center;
+
     padding-top: 100px;
+}
+
+@media (max-width: 600px) {
+
 }
