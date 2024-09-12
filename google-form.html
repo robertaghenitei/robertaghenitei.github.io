@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Form for Search, Image and Advanced Search</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+    
     <div id="searchOptions">
      
             <div class="searchLinks">
@@ -17,11 +21,18 @@
             </div>
 
     </div>
-    <div id="searchPosition">
-    <form action="https://www.google.com/search">
-        <input type="text" name="q">
-        <input type="submit" value="Google Search">
-    </form>
-    </div>
+    <div class="container">
+        <h1>Google Serch</h1>
+        <!-- <p>The .input-group class is a container to enhance an input by adding an icon, text or a button in front or behind it as a "help text".</p>
+        <p>The .input-group-btn class attaches a button next to an input field. This is often used as a search bar:</p> -->
+        <form action="https://www.google.com/search">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" name="q" >
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit" value="Google Search"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+          </div>
+        </form>
+      </div>
 </body>
 </html>
