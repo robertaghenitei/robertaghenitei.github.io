@@ -16,6 +16,9 @@ p, li {
     margin-right: 0;
 }
 
+.search-bar-size {
+    max-width: 65ch;
+}
 
 .searchLinks {
     background-color: hsl(0, 22%, 85%);
@@ -38,6 +41,7 @@ a {
 
 .form-control {
     border-radius: 20px;
+    padding: 10px;
 }
 
 #container-google-searches {
@@ -53,11 +57,31 @@ a {
     width: 300px;
     margin: auto;
 }
-#searchPosition{
-    text-align: center;
-    padding: 50px;
 
+.btn {
+    margin: 10px;
 }
+.searchPosition, .searchPosition>form>input, .searchPosition>h1{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.searchPosition>h1{
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-size: 2.5;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-style: italic;
+    padding: 10px;
+    color: hsl(202, 38%, 58%);
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+}
+
+.asearch {
+    margin-left: 0px;
+}
+
 
 @media (max-width: 600px) {
 
