@@ -1,6 +1,6 @@
 body {
     text-wrap: balance;
-    background-color: #f2f2f2;
+    background-color: hsla(0, 0%, 95%, 0.486);
     font-family: Arial, sans-serif;
 }
 
@@ -41,7 +41,8 @@ a {
 
 .form-control {
     border-radius: 20px;
-    padding: 10px;
+
+    border: 1px solid hsla(0, 2%, 70%, 0.726);
 }
 
 #container-google-searches {
@@ -58,15 +59,17 @@ a {
     margin: auto;
 }
 
-.btn {
-    margin: 10px;
-}
+
 .searchPosition, .searchPosition>form>input, .searchPosition>h1{
     text-align: center;
     display: block;
-    margin: auto;
+    margin-left: 0px;
+    margin-top: 10px;
 }
 
+.btn {
+    margin: 10px;
+}
 .searchPosition>h1{
     font-family: "Helvetica Neue",Helvetica,Arial;
     font-size: 2.5;
