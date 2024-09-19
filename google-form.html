@@ -23,19 +23,14 @@
 
     </div>
 
-    <div class="container" id="searchPosition">
-        <h1>Google Serch</h1>
-        <!-- <p>The .input-group class is a container to enhance an input by adding an icon, text or a button in front or behind it as a "help text".</p>
-        <p>The .input-group-btn class attaches a button next to an input field. This is often used as a search bar:</p> -->
-        <form action="https://www.google.com/search">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search" name="q" >
-            <div class="input-group-btn">
-              <button class="btn btn-default" type="submit" value="Google Search"><i class="glyphicon glyphicon-search"></i></button>
-            </div>
-          </div>
-        </form>
-      </div>
+    <div class="searchPosition">
+        <h1>Google Search</h1>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" class="form-control search-bar-size">
+        <input type="submit" value="Google Search" class="btn btn-primary">
+        <input type="submit" name="btnI" value="I am Feeling Lucky" class="btn btn-primary" formaction="https://google.com/search?&btnI=1">
+    </form>
+    </div>
 
     <script src="index.js"></script>
 
